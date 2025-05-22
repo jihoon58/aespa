@@ -356,7 +356,7 @@ header, .header-container, .logo {
   outline: none;
 }
 
-.quiz-choice-btn:hover, .quiz-choice-btn:focus {
+.quiz-choice-btn:hover {
   background: #f0f4ff;
   border-color: var(--secondary-color);
   color: var(--primary-color);
@@ -382,15 +382,6 @@ header, .header-container, .logo {
   display: flex;
   flex-direction: column;
   background: var(--background-color);
-}
-
-.result-page-title {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--primary-color);
-  margin: 2.5rem 0 1.5rem 0;
-  letter-spacing: 0.05em;
 }
 
 main {
@@ -501,6 +492,10 @@ main {
   width: 100%;
   text-align: center;
 }
+.reset-btn, .share-btn {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
 .share-btn {
   background: linear-gradient(90deg, #e91e63 60%, #fb6f92 100%);
   color: #fff;
@@ -518,8 +513,32 @@ main {
   background: linear-gradient(90deg, #fb6f92 0%, #e91e63 100%);
   transform: translateY(-2px) scale(1.04);
 }
+.reset-btn {
+  background: linear-gradient(90deg, #6a6aff 60%, #8a8aff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(106,106,255,0.13);
+  transition: background 0.2s, transform 0.2s;
+  margin-top: 0.5rem;
+}
+.reset-btn:hover {
+  background: linear-gradient(90deg, #8a8aff 0%, #6a6aff 100%);
+  transform: translateY(-2px) scale(1.04);
+}
 @media (max-width: 700px) {
   .result-container { max-width: 98vw; padding: 1rem 0.2rem 1.5rem 0.2rem; }
   .result-image { width: 60vw; height: 60vw; max-width: 260px; max-height: 260px; }
   .mbti-side-labels, .mbti-side-labels.right { display: none; }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
 }
