@@ -421,13 +421,14 @@ main {
   flex-direction: column;
   gap: 1.2rem;
   position: absolute;
-  left: -110px;
+  left: 10px;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 2;
 }
 .mbti-side-labels.right {
   left: auto;
-  right: -110px;
+  right: 10px;
   align-items: flex-end;
 }
 .mbti-side-label {
@@ -533,7 +534,7 @@ main {
 @media (max-width: 700px) {
   .result-container { max-width: 98vw; padding: 1rem 0.2rem 1.5rem 0.2rem; }
   .result-image { width: 60vw; height: 60vw; max-width: 260px; max-height: 260px; }
-  .mbti-side-labels, .mbti-side-labels.right { display: none; }
+  /* .mbti-side-labels, .mbti-side-labels.right { display: none; } */
 }
 
 .button-container {
