@@ -153,9 +153,9 @@ footer {
 }
 
 .start-image {
-  width: 100%;
+  width: 80%;
   max-width: 500px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   border-radius: 15px;
   box-shadow: var(--shadow);
   transition: var(--transition);
@@ -295,20 +295,17 @@ header, .header-container, .logo {
   background: var(--white);
   border-radius: 24px;
   box-shadow: 0 8px 32px rgba(233,30,99,0.10);
-  padding: 2.5rem 1.5rem 2rem 1.5rem;
+  padding: 2rem 1.5rem 2rem 1.5rem;
 }
 
 .quiz-image-box {
   width: 320px;
   height: 320px;
-  background: #fff5f7;
   border-radius: 18px;
-  box-shadow: 0 4px 16px rgba(251,111,146,0.10);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2rem;
-  border: 2px solid #e0e0e0;
+  margin-bottom: 1.4rem;
 }
 
 .quiz-image {

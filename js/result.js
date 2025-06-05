@@ -1,36 +1,36 @@
 const mbtiResults = {
   INFP: {
-    name: "INFP", nickname: "감성 폭발 로맨티스트", desc: "감정보다 지적 교류를 중시하는 스타일.", image: "../img/mbti/INFP.jpg", sides: [ { side: "left", text: "이상주의자" }, { side: "left", text: "감성적" }, { side: "right", text: "자유로운" }, { side: "right", text: "몽상가" } ] },
+    name: "INFP", nickname: "감성 폭발 로맨티스트", desc: "감정보다 지적 교류를 중시하는 스타일.", image: "../img/mbti/INFP.png", sides: [ { side: "left", text: "이상주의자" }, { side: "left", text: "감성적" }, { side: "right", text: "자유로운" }, { side: "right", text: "몽상가" } ] },
   ENFP: {
-    name: "ENFP", nickname: "자유로운 영혼의 연인", desc: "감정 표현이 풍부하고 에너지 넘치는 스타일.", image: "../img/mbti/ENFP.jpg", sides: [ { side: "left", text: "열정" }, { side: "left", text: "창의적" }, { side: "right", text: "자유로운" }, { side: "right", text: "외향적" } ] },
+    name: "ENFP", nickname: "자유로운 영혼의 연인", desc: "감정 표현이 풍부하고 에너지 넘치는 스타일.", image: "../img/mbti/ENFP.png", sides: [ { side: "left", text: "열정" }, { side: "left", text: "창의적" }, { side: "right", text: "자유로운" }, { side: "right", text: "외향적" } ] },
   INFJ: {
-    name: "INFJ", nickname: "감정 예언자", desc: "깊고 의미 있는 감정적 연결을 추구하는 스타일.", image: "../img/mbti/INFJ.jpg", sides: [ { side: "left", text: "이상주의" }, { side: "left", text: "공감" }, { side: "right", text: "조언자" }, { side: "right", text: "신념" } ] },
+    name: "INFJ", nickname: "감정 예언자", desc: "깊고 의미 있는 감정적 연결을 추구하는 스타일.", image: "../img/mbti/INFJ.png", sides: [ { side: "left", text: "이상주의" }, { side: "left", text: "공감" }, { side: "right", text: "조언자" }, { side: "right", text: "신념" } ] },
   ENFJ: {
-    name: "ENFJ", nickname: "사랑 주는 햇살", desc: "정 많고 다정한 배려형 스타일.", image: "../img/mbti/ENFJ.jpg", sides: [ { side: "left", text: "리더십" }, { side: "left", text: "배려" }, { side: "right", text: "따뜻함" }, { side: "right", text: "헌신" } ] },
+    name: "ENFJ", nickname: "사랑 주는 햇살", desc: "정 많고 다정한 배려형 스타일.", image: "../img/mbti/ENFJ.png", sides: [ { side: "left", text: "리더십" }, { side: "left", text: "배려" }, { side: "right", text: "따뜻함" }, { side: "right", text: "헌신" } ] },
   INTJ: {
-    name: "INTJ", nickname: "계획된 연애 마스터", desc: "논리적이고 미래를 함께 설계하는 스타일.", image: "../img/mbti/INTJ.jpg", sides: [ { side: "left", text: "전략" }, { side: "left", text: "분석" }, { side: "right", text: "독립적" }, { side: "right", text: "계획적" } ] },
+    name: "INTJ", nickname: "계획된 연애 마스터", desc: "논리적이고 미래를 함께 설계하는 스타일.", image: "../img/mbti/INTJ.png", sides: [ { side: "left", text: "전략" }, { side: "left", text: "분석" }, { side: "right", text: "독립적" }, { side: "right", text: "계획적" } ] },
   ENTJ: {
-    name: "ENTJ", nickname: "당당한 매력인간", desc: "열정적으로 이끄는 추진력 있는 스타일.", image: "../img/mbti/ENTJ.jpg", sides: [ { side: "left", text: "리더십" }, { side: "left", text: "당당함" }, { side: "right", text: "목표지향" }, { side: "right", text: "결단력" } ] },
+    name: "ENTJ", nickname: "당당한 매력인간", desc: "열정적으로 이끄는 추진력 있는 스타일.", image: "../img/mbti/ENTJ.png", sides: [ { side: "left", text: "리더십" }, { side: "left", text: "당당함" }, { side: "right", text: "목표지향" }, { side: "right", text: "결단력" } ] },
   INTP: {
-    name: "INTP", nickname: "논리 사랑 탐구자", desc: "감정보다 지적 교류를 중시하는 스타일.", image: "../img/mbti/INTP.jpg", sides: [ { side: "left", text: "사색" }, { side: "left", text: "논리" }, { side: "right", text: "창의적" }, { side: "right", text: "분석적" } ] },
+    name: "INTP", nickname: "논리 사랑 탐구자", desc: "감정보다 지적 교류를 중시하는 스타일.", image: "../img/mbti/INTP.png", sides: [ { side: "left", text: "사색" }, { side: "left", text: "논리" }, { side: "right", text: "창의적" }, { side: "right", text: "분석적" } ] },
   ENTP: {
-    name: "ENTP", nickname: "논리도, 감정도 다 해보는 연애 실험가", desc: "자유롭고 유쾌한 연애를 즐기는 스타일.", image: "../img/mbti/ENTP.jpg", sides: [ { side: "left", text: "아이디어" }, { side: "left", text: "유쾌함" }, { side: "right", text: "도전적" }, { side: "right", text: "창의적" } ] },
+    name: "ENTP", nickname: "논리도, 감정도 다 해보는 연애 실험가", desc: "자유롭고 유쾌한 연애를 즐기는 스타일.", image: "../img/mbti/ENTP.png", sides: [ { side: "left", text: "아이디어" }, { side: "left", text: "유쾌함" }, { side: "right", text: "도전적" }, { side: "right", text: "창의적" } ] },
   ISFP: {
-    name: "ISFP", nickname: "자유로운 낭만가", desc: "따뜻하고 조용히 표현하는 감성적인 스타일.", image: "../img/mbti/ISFP.jpg", sides: [ { side: "left", text: "예술적" }, { side: "left", text: "감성" }, { side: "right", text: "따뜻함" }, { side: "right", text: "자유로움" } ] },
+    name: "ISFP", nickname: "자유로운 낭만가", desc: "따뜻하고 조용히 표현하는 감성적인 스타일.", image: "../img/mbti/ISFP.png", sides: [ { side: "left", text: "예술적" }, { side: "left", text: "감성" }, { side: "right", text: "따뜻함" }, { side: "right", text: "자유로움" } ] },
   ESFP: {
-    name: "ESFP", nickname: "무대 위 사랑꾼", desc: "사랑을 즐기고 적극적으로 표현하는 스타일.", image: "../img/mbti/ESFP.jpg", sides: [ { side: "left", text: "사교적" }, { side: "left", text: "즉흥적" }, { side: "right", text: "유쾌함" }, { side: "right", text: "에너지" } ] },
+    name: "ESFP", nickname: "무대 위 사랑꾼", desc: "사랑을 즐기고 적극적으로 표현하는 스타일.", image: "../img/mbti/ESFP.png", sides: [ { side: "left", text: "사교적" }, { side: "left", text: "즉흥적" }, { side: "right", text: "유쾌함" }, { side: "right", text: "에너지" } ] },
   ISTP: {
-    name: "ISTP", nickname: "즉흥적인 연애마스터", desc: "쿨하고 독립적인 연애를 선호하는 스타일.", image: "../img/mbti/ISTP.jpg", sides: [ { side: "left", text: "실용적" }, { side: "left", text: "자유" }, { side: "right", text: "쿨함" }, { side: "right", text: "유연함" } ] },
+    name: "ISTP", nickname: "즉흥적인 연애마스터", desc: "쿨하고 독립적인 연애를 선호하는 스타일.", image: "../img/mbti/ISTP.png", sides: [ { side: "left", text: "실용적" }, { side: "left", text: "자유" }, { side: "right", text: "쿨함" }, { side: "right", text: "유연함" } ] },
   ESTP: {
-    name: "ESTP", nickname: "반짝이는 눈빛의 유혹인간", desc: "즉흥적이고 모험을 즐기는 스타일.", image: "../img/mbti/ESTP.jpg", sides: [ { side: "left", text: "모험" }, { side: "left", text: "도전" }, { side: "right", text: "즉흥적" }, { side: "right", text: "에너지" } ] },
+    name: "ESTP", nickname: "반짝이는 눈빛의 유혹인간", desc: "즉흥적이고 모험을 즐기는 스타일.", image: "../img/mbti/ESTP.png", sides: [ { side: "left", text: "모험" }, { side: "left", text: "도전" }, { side: "right", text: "즉흥적" }, { side: "right", text: "에너지" } ] },
   ISFJ: {
-    name: "ISFJ", nickname: "연애 내조왕", desc: "조용히 챙겨주는 보호자 같은 스타일.", image: "../img/mbti/ISFJ.jpg", sides: [ { side: "left", text: "헌신" }, { side: "left", text: "배려" }, { side: "right", text: "수호자" }, { side: "right", text: "신뢰" } ] },
+    name: "ISFJ", nickname: "연애 내조왕", desc: "조용히 챙겨주는 보호자 같은 스타일.", image: "../img/mbti/ISFJ.png", sides: [ { side: "left", text: "헌신" }, { side: "left", text: "배려" }, { side: "right", text: "수호자" }, { side: "right", text: "신뢰" } ] },
   ESFJ: {
-    name: "ESFJ", nickname: "마음 챙김 로맨티스트", desc: "정 많고 다정한 배려형 스타일.", image: "../img/mbti/ESFJ.jpg", sides: [ { side: "left", text: "친절" }, { side: "left", text: "사교" }, { side: "right", text: "배려" }, { side: "right", text: "조화" } ] },
+    name: "ESFJ", nickname: "마음 챙김 로맨티스트", desc: "정 많고 다정한 배려형 스타일.", image: "../img/mbti/ESFJ.png", sides: [ { side: "left", text: "친절" }, { side: "left", text: "사교" }, { side: "right", text: "배려" }, { side: "right", text: "조화" } ] },
   ISTJ: {
-    name: "ISTJ", nickname: "계획왕 쿨가이", desc: "책임감 있고 안정적인 연애 스타일.", image: "../img/mbti/ISTJ.jpg", sides: [ { side: "left", text: "원칙" }, { side: "left", text: "신뢰" }, { side: "right", text: "책임감" }, { side: "right", text: "성실함" } ] },
+    name: "ISTJ", nickname: "계획왕 쿨가이", desc: "책임감 있고 안정적인 연애 스타일.", image: "../img/mbti/ISTJ.png", sides: [ { side: "left", text: "원칙" }, { side: "left", text: "신뢰" }, { side: "right", text: "책임감" }, { side: "right", text: "성실함" } ] },
   ESTJ: {
-    name: "ESTJ", nickname: "당당한 매력인간", desc: "주도적이고 계획적인 연애 스타일.", image: "../img/mbti/ESTJ.jpg", sides: [ { side: "left", text: "현실적" }, { side: "left", text: "체계" }, { side: "right", text: "관리자" }, { side: "right", text: "실용적" } ] }
+    name: "ESTJ", nickname: "당당한 매력인간", desc: "주도적이고 계획적인 연애 스타일.", image: "../img/mbti/ESTJ.png", sides: [ { side: "left", text: "현실적" }, { side: "left", text: "체계" }, { side: "right", text: "관리자" }, { side: "right", text: "실용적" } ] }
 };
 
 function getMbtiTypeFromParams() {
