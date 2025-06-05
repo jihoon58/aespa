@@ -5,7 +5,7 @@ const questions = [
   // E / I
   {
     id: 1,
-    image: '../img/mbti_q1.jpg',
+    image: '../img/quiz/q1.png',
     question: '더 끌리는 데이트는?',
     options: [
       { text: '사람 많은 핫플레이스!', mbtiKey: 'e', next: 2 },
@@ -14,7 +14,7 @@ const questions = [
   },
   {
     id: 2,
-    image: '../img/mbti_q2.jpg',
+    image: '../img/quiz/q2.png',
     question: '데이트할 때, 너라면...',
     options: [
       { text: '신나게 사람들이 모인 파티에서 사랑을 꽃피운다', mbtiKey: 'e', next: 3 },
@@ -23,7 +23,7 @@ const questions = [
   },
   {
     id: 3,
-    image: '../img/mbti_q3.jpg',
+    image: '../img/quiz/q3.png',
     question: '파티에서 이상형을 만났다면..?',
     options: [
       { text: '바로 직진하여 번호를 물어본다', mbtiKey: 'e', next: 4 },
@@ -34,7 +34,7 @@ const questions = [
   // N / S
   {
     id: 4,
-    image: '../img/mbti_q4.jpg',
+    image: '../img/quiz/q4.png',
     question: '선물 고를 때 나는?',
     options: [
       { text: '실용적인 것을 고르는 게 낫다', mbtiKey: 's', next: 5 },
@@ -43,7 +43,7 @@ const questions = [
   },
   {
     id: 5,
-    image: '../img/mbti_q5.jpg',
+    image: '../img/quiz/q5.png',
     question: '누군가에게 고백 받았을 때?',
     options: [
       { text: '감정이 진짜일까?', mbtiKey: 's', next: 6 },
@@ -52,7 +52,7 @@ const questions = [
   },
   {
     id: 6,
-    image: '../img/mbti_q6.jpg',
+    image: '../img/quiz/q6.png',
     question: '미래에 대한 연애관은 어떤 편?',
     options: [
       { text: '현재에 충실, 하루 하루 함께가 중요해!', mbtiKey: 's', next: 7 },
@@ -63,7 +63,7 @@ const questions = [
   // F / T
   {
     id: 7,
-    image: '../img/mbti_q7.jpg',
+    image: '../img/quiz/q7.png',
     question: '연애에서 중요한 건?',
     options: [
       { text: '서로 존중하는 감정', mbtiKey: 'f', next: 8 },
@@ -72,7 +72,7 @@ const questions = [
   },
   {
     id: 8,
-    image: '../img/mbti_q8.jpg',
+    image: '../img/quiz/q8.png',
     question: '상대방이 속상할 때, 어떻게 할거야?',
     options: [
       { text: '자연스럽게 감정을 나누고, 표현해야지', mbtiKey: 'f', next: 9 },
@@ -81,7 +81,7 @@ const questions = [
   },
   {
     id: 9,
-    image: '../img/mbti_q9.jpg',
+    image: '../img/quiz/q9.png',
     question: '연인이 힘든 일이 생겼을 때 당신은?',
     options: [
       { text: '일단 무슨 일이 생겼는지 파악하고 해결책을 구상한다', mbtiKey: 't', next: 10 },
@@ -92,7 +92,7 @@ const questions = [
   // J / P
   {
     id: 10,
-    image: '../img/mbti_q10.jpg',
+    image: '../img/quiz/q10.png',
     question: '연인이 갑자기 약속을 취소하면 나는?',
     options: [
       { text: '미리 말했으면 괜찮았을 텐데...', mbtiKey: 'j', next: 11 },
@@ -101,7 +101,7 @@ const questions = [
   },
   {
     id: 11,
-    image: '../img/mbti_q11.jpg',
+    image: '../img/quiz/q11.png',
     question: '연인이 좋아하는 가수 콘서트를 가자고 할 때, 당신은?',
     options: [
       { text: '자리부터 예매하고 그날 코디를 상상한다', mbtiKey: 'j', next: 12 },
@@ -110,7 +110,7 @@ const questions = [
   },
   {
     id: 12,
-    image: '../img/mbti_q12.jpg',
+    image: '../img/quiz/q12.png',
     question: '갑작스럽게 잡힌 데이트! 당신은 어떻게 진행할 것인가?',
     options: [
       { text: '최고의 하루를 만들기 위해 카페에 가서 계획을 정리한다', mbtiKey: 'j', next: null },
