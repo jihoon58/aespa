@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>연애 성향 테스트 결과</title>
+  <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/project_style.css">
+</head>
+<body>
+  <div class="result-page-container">
+    <header class="header-flex">
+      <div class="header-container-flex">
+        <a href="index.html"><img src="../img/logo.svg" alt="aespa Logo" class="logo-photo"></a>
+        <div class="header-texts">
+          <span class="main-title">연애 성향 테스트</span>
+          <span class="sub-title">당신의 연애 성향을 확인해보세요</span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="result-container">
+        <div class="result-image-box">
+          <div class="mbti-side-labels" id="mbti-side-labels-left"></div>
+          <div class="image-wrapper" style="position:relative;">
+            <img id="mbti-image" src="" alt="유형별 이미지" class="result-image">
+            <span id="img-error" style="display:none;color:#e91e63;font-size:1rem;position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);text-align:center;z-index:3;">이미지를 불러올 수 없습니다.</span>
+          </div>
+          <div class="mbti-side-labels right" id="mbti-side-labels-right"></div>
+        </div>
+        <div class="mbti-type-name" id="mbti-type-name"></div>
+        <div class="mbti-type-nickname" id="mbti-type-nickname"></div>
+        <div class="result-highlight" id="resultHighlight"></div>
+        <div class="mbti-type-desc-card" id="mbti-type-desc-card"></div>
+        <div class="button-container">
+          <button class="reset-btn" id="reset-btn">테스트 다시하기</button>
+          <button class="share-btn" id="share-btn">공유하기</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <span>© 2025 aespa 심리테스트. All Rights Reserved.</span>
+    </footer>
+  </div>
+  <script src="../js/result.js"></script>
+</body>
+</html>
